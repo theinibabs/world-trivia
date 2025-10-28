@@ -3,7 +3,7 @@ html {margin: 0; padding: 0;}
 body {font-family: Arial, Helvetica, sans-serif; 
     margin: 0; padding: 0; color: 333;
     background-color: #f4f4f4; font-size: 16px;
-    max-width: 100%;}
+    max-width: 100vw;}
 
 header, footer {width: 100%; margin: 0; padding: 0;
     background-color: #333
@@ -121,4 +121,5 @@ footer p {text-align: center; color: rgb(200,200,200);
     .trivia6 {grid-area: 3 / 2;}
     .trivia7 {grid-area: 3 / 3;}
     .trivia8 {grid-area: 3 / 4;}
+
 }
