@@ -52,7 +52,7 @@ header > nav {background-color: #222222;
 #categories h2 {text-align: center;} 
 #categories {padding-bottom: 15px;} 
 
-#scores {width: 100%;}
+#scores {width: 100%; overflow: auto;}
 table {width: 95%; border-collapse: collapse; margin: 2.5%;
 }
 thead {background-color: #333 !important; color: white;}
@@ -80,7 +80,6 @@ footer p {text-align: center; color: rgb(200,200,200);
 }
 
 @media (max-width: 600px) {
-    header, section, footer {width: 100%; max-width: 100%;}
     body {max-width: 100vw}
     header > nav {height: auto;}
     nav > ul {display: flex; flex-direction: column;}
@@ -125,6 +124,7 @@ footer p {text-align: center; color: rgb(200,200,200);
     .trivia8 {grid-area: 3 / 4;}
 
 }
+
 
 
 
