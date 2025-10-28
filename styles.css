@@ -80,6 +80,7 @@ footer p {text-align: center; color: rgb(200,200,200);
 }
 
 @media (max-width: 600px) {
+    body {max-width: 100vw}
     header > nav {height: auto;}
     nav > ul {display: flex; flex-direction: column;}
     .flex-row {flex-direction: row; flex-wrap: wrap;}
@@ -124,4 +125,5 @@ footer p {text-align: center; color: rgb(200,200,200);
     .trivia8 {grid-area: 3 / 4;}
 
 }
+
 
