@@ -86,6 +86,7 @@ footer p {text-align: center; color: rgb(200,200,200);
     nav > ul {display: flex; flex-direction: column;}
     .flex-row {flex-direction: row; flex-wrap: wrap;}
     table {max-width: 576px;}
+    #rank {display: none;}
     #trivia {display: grid; grid-template-columns: repeat(2, 1fr);}
     .trivia-head {grid-area: 1 / 1 / 2 / 5; text-align: center;}
     .trivia1 {grid-area: 2 / 1;}
@@ -126,6 +127,7 @@ footer p {text-align: center; color: rgb(200,200,200);
     .trivia8 {grid-area: 3 / 4;}
 
 }
+
 
 
 
